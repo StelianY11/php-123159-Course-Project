@@ -33,22 +33,20 @@
 </form>
 
 <style>
-    /* Button Color for form */
     .btn-brown {
-        background-color: #D2B48C; /* Light brown (Tan) */
-        color: #fff; /* White text */
+        background-color: #D2B48C; 
+        color: #fff; 
         border: none;
         padding: 10px 20px;
     }
 
     .btn-brown:hover {
-        background-color: #A67C52; /* Slightly darker brown on hover */
-        color: #fff; /* Ensure text stays white on hover */
+        background-color: #A67C52; 
+        color: #fff; 
     }
 
-    /* Image Styling */
     .img-fluid {
-        max-width: 200px; /* Set a max-width to make the image smaller */
-        height: auto; /* Keep the aspect ratio intact */
+        max-width: 200px; 
+        height: auto; 
     }
 </style>

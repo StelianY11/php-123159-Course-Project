@@ -246,49 +246,49 @@ if (!is_admin() && in_array($page, $admin_pages)) {
     <!-- CSS -->
     <style>
     .bg-light-brown {
-        background-color: #D2B48C; /* Lighter brown (Tan) */
+        background-color: #D2B48C; 
     }
 
     .text-dark {
-        color: #333333; /* Dark text for better contrast */
+        color: #333333; 
     }
 
     .navbar-nav {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 0; /* Remove bottom margin */
-        padding-left: 0; /* Remove left padding from the <ul> */
+        margin-bottom: 0;
+        padding-left: 0;
     }
 
     .navbar-nav .nav-item {
-        margin-right: 10px; /* Reduced margin between items */
-        margin-left: 10px; /* Reduced margin on the left */
+        margin-right: 10px; 
+        margin-left: 10px; 
     }
 
     .navbar-nav .nav-link {
-        color: #333333 !important; /* Ensures the links are dark */
-        padding: 8px 16px; /* Reduced padding */
+        color: #333333 !important;
+        padding: 8px 16px; 
         border-radius: 5px;
         transition: background-color 0.3s ease;
     }
 
     .navbar-nav .nav-link:hover,
     .navbar-nav .nav-link.active {
-        background-color: #A67C52; /* Lighter brown for hover and active */
-        color: #fff; /* White text on hover or active */
+        background-color: #A67C52; 
+        color: #fff; 
     }
 
     .navbar-nav .nav-item:last-child {
-        margin-right: 0; /* Remove margin from the last item */
+        margin-right: 0; 
     }
 
     .navbar-nav .nav-link.active {
-        background-color: #A67C52; /* Lighter brown for active state */
-        color: #fff; /* White text when active */
+        background-color: #A67C52; 
+        color: #fff; 
     }
 
     .navbar-nav .nav-link {
-        text-transform: uppercase; /* Optional: Make text uppercase */
+        text-transform: uppercase; 
     }
 </style>
 

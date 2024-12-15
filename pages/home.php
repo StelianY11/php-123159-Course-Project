@@ -14,14 +14,14 @@
 
 <style>
     .btn-custom-brown {
-        background-color: #D2B48C; /* Light brown (Tan) */
-        color: #fff; /* White text */
+        background-color: #D2B48C; 
+        color: #fff; 
         border: none;
     }
 
     .btn-custom-brown:hover {
-        background-color: #A67C52; /* Slightly darker brown on hover */
-        color: #fff; /* Ensure text stays white on hover */
+        background-color: #A67C52; 
+        color: #fff; 
     }
 </style>
 

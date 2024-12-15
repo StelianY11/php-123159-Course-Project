@@ -31,9 +31,6 @@ if (mb_strlen($image) == 0) {
     exit;
 }
 
-// проверка дали има нова снимка
-
-
 $query = "
         UPDATE products
         SET title = :title, price = :price, image = :image

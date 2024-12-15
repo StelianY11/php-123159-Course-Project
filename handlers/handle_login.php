@@ -6,7 +6,6 @@ require_once('../db.php');
 $email = $_POST['email'] ?? '';
 $password = $_POST['password'] ?? '';
 
-// проверяваме дали потребителят съществува
 $query = "SELECT * FROM users WHERE email = :email";
 $stmt = $pdo->prepare($query);
 $stmt->execute([':email' => $email]);

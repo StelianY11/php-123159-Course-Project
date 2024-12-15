@@ -28,7 +28,6 @@ if (mb_strlen($error) > 0) {
     $repeat_password = trim($_POST['repeat_password']);
     $is_admin = intval($_POST['is_admin'] ?? 0);
 
-    // проверим дали съществува потребител с този имейл
     $query = "SELECT id FROM users WHERE email = ?";
     $stmt = $pdo->prepare($query);
     $stmt->execute([$email]);

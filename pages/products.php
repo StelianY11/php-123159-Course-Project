@@ -175,19 +175,18 @@
         color: #6c4f3d;
     }
 
-    /* Ensuring images fit in their containers properly */
     .card-img-container {
-        width: 100%; /* Ensure image container fills the width of the card */
-        height: 200px; /* Set fixed height for consistent card design */
-        overflow: hidden; /* Hide overflowed parts of the image */
+        width: 100%; 
+        height: 200px; 
+        overflow: hidden; 
     }
 
     .card-img-top {
-        width: 100%; /* Image takes up the full width of the container */
-        height: auto; /* Keep aspect ratio of image intact */
-        max-height: 100%; /* Ensure image doesn't exceed the container's height */
-        object-fit: contain; /* Ensure the full image is visible, no cropping */
-        object-position: center; /* Ensure the image is centered if the aspect ratio doesn't fit the container */
+        width: 100%; 
+        height: auto; 
+        max-height: 100%; 
+        object-fit: contain;
+        object-position: center; 
     }
 
     .card-footer {

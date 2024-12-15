@@ -20,35 +20,33 @@
 </form>
 
 <style>
-    /* Button Color for form */
     .btn-brown {
-        background-color: #D2B48C; /* Light brown (Tan) */
-        color: #fff; /* White text */
+        background-color: #D2B48C; 
+        color: #fff; 
         border: none;
         padding: 10px 20px;
     }
 
     .btn-brown:hover {
-        background-color: #A67C52; /* Slightly darker brown on hover */
-        color: #fff; /* Ensure text stays white on hover */
+        background-color: #A67C52; 
+        color: #fff; 
     }
 
-    /* Form Styling */
     .form-container {
-        background-color: #fff; /* White background for the form */
-        border: 1px solid #ddd; /* Light gray border */
+        background-color: #fff; 
+        border: 1px solid #ddd; 
     }
 
     .form-label {
-        font-weight: 500; /* Slightly bold labels */
+        font-weight: 500; 
     }
 
     .form-control {
-        border-radius: 5px; /* Rounded corners for input fields */
-        padding: 10px; /* Padding for inputs */
+        border-radius: 5px; 
+        padding: 10px; 
     }
 
     h3 {
-        color: #333; /* Dark text color for the title */
+        color: #333; 
     }
 </style>

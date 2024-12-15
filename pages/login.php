@@ -18,23 +18,21 @@
 </form>
 
 <style>
-    /* General form styling */
     .form-label {
         font-weight: 600;
-        color: #6c4f3d; /* Dark brown for text */
+        color: #6c4f3d; 
     }
 
     .form-control {
-        border: 1px solid #D2B48C; /* Light brown border */
+        border: 1px solid #D2B48C; 
         padding: 10px;
         border-radius: 5px;
-        background-color: #f8f4e1; /* Light beige background */
+        background-color: #f8f4e1; 
     }
 
-    /* Button styling (brown theme) */
     .btn-brown {
-        background-color: #D2B48C; /* Light brown (Tan) */
-        color: #fff; /* White text */
+        background-color: #D2B48C; 
+        color: #fff; 
         border: none;
         padding: 10px 20px;
         border-radius: 5px;
@@ -42,10 +40,9 @@
     }
 
     .btn-brown:hover {
-        background-color: #A67C52; /* Slightly darker brown on hover */
+        background-color: #A67C52; 
     }
 
-    /* Add space between elements */
     .mt-5 {
         margin-top: 5rem !important;
     }
