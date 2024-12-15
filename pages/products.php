@@ -20,8 +20,6 @@
 
         $products[] = $row;
     }
-
-    
 ?>
 
 <div class="row mb-4">
@@ -85,7 +83,9 @@
             echo '
                 <div class="card mb-4" style="width: 18rem; border: 1px solid #D2B48C;">
                     ' . $edit_delete_buttons . '
-                    <img src="' . htmlspecialchars($product['image']) . '" class="card-img-top" alt="Product Image" style="height: 200px; object-fit: cover;">
+                    <div class="card-img-container">
+                        <img src="' . htmlspecialchars($product['image']) . '" class="card-img-top" alt="Product Image">
+                    </div>
                     <div class="card-body" style="background-color: #f8f4e1;">
                         <h5 class="card-title" style="color: #6c4f3d;">' . htmlspecialchars($product['title']) . '</h5>
                         <p class="card-text" style="color: #6c4f3d;">' . htmlspecialchars($product['price']) . ' лв.</p>
@@ -120,6 +120,7 @@
     .card {
         border-radius: 8px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        overflow: hidden; /* Prevents overflow of image beyond the card */
     }
 
     .card-header, .card-body {
@@ -174,7 +175,23 @@
         color: #6c4f3d;
     }
 
+    /* Ensuring images fit in their containers properly */
+    .card-img-container {
+        width: 100%; /* Ensure image container fills the width of the card */
+        height: 200px; /* Set fixed height for consistent card design */
+        overflow: hidden; /* Hide overflowed parts of the image */
+    }
+
+    .card-img-top {
+        width: 100%; /* Image takes up the full width of the container */
+        height: auto; /* Keep aspect ratio of image intact */
+        max-height: 100%; /* Ensure image doesn't exceed the container's height */
+        object-fit: contain; /* Ensure the full image is visible, no cropping */
+        object-position: center; /* Ensure the image is centered if the aspect ratio doesn't fit the container */
+    }
+
     .card-footer {
         background-color: #f8f4e1;
     }
 </style>
+
