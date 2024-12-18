@@ -6,11 +6,11 @@
     <h3 class="text-center mb-4">Вход в системата</h3>
     <div class="mb-3">
         <label for="email" class="form-label">Имейл</label>
-        <input type="email" class="form-control" id="email" name="email" value="<?php echo $_COOKIE['user_email'] ?? '' ?>" placeholder="Въведете вашия имейл" required>
+        <input type="email" class="form-control" id="email" name="email" value="<?php echo $_COOKIE['user_email'] ?? '' ?>" placeholder="Въведете вашия имейл" >
     </div>
     <div class="mb-3">
         <label for="password" class="form-label">Парола</label>
-        <input type="password" class="form-control" id="password" name="password" placeholder="Въведете вашата парола" required>
+        <input type="password" class="form-control" id="password" name="password" placeholder="Въведете вашата парола" >
     </div>
     <div class="d-flex justify-content-center mt-4">
         <button type="submit" class="btn btn-brown w-50">Вход</button>

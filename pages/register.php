@@ -6,19 +6,19 @@
     <h3 class="text-center mb-4">Регистрация</h3>
     <div class="mb-3">
         <label for="names" class="form-label">Имена</label>
-        <input type="text" class="form-control" id="names" name="names" value="<?php echo $flash['data']['names'] ?? '' ?>" placeholder="Въведете вашето име" required>
+        <input type="text" class="form-control" id="names" name="names" value="<?php echo $flash['data']['names'] ?? '' ?>" placeholder="Въведете вашето име" >
     </div>
     <div class="mb-3">
         <label for="email" class="form-label">Имейл</label>
-        <input type="email" class="form-control" id="email" name="email" value="<?php echo $flash['data']['email'] ?? '' ?>" placeholder="Въведете вашия имейл" required>
+        <input type="email" class="form-control" id="email" name="email" value="<?php echo $flash['data']['email'] ?? '' ?>" placeholder="Въведете вашия имейл" >
     </div>
     <div class="mb-3">
         <label for="password" class="form-label">Парола</label>
-        <input type="password" class="form-control" id="password" name="password" placeholder="Въведете паролата" required>
+        <input type="password" class="form-control" id="password" name="password" placeholder="Въведете паролата" >
     </div>
     <div class="mb-3">
         <label for="repeat_password" class="form-label">Повтори парола</label>
-        <input type="password" class="form-control" id="repeat_password" name="repeat_password" placeholder="Повторете паролата" required>
+        <input type="password" class="form-control" id="repeat_password" name="repeat_password" placeholder="Повторете паролата" >
     </div>
     <div class="mb-3">
         <label class="form-label">Тип на потребителя</label>
