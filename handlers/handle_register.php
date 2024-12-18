@@ -43,7 +43,7 @@ if (mb_strlen($error) > 0) {
         exit;
     }
 
-    if (!in_array($is_admin, [1,2])) {
+    if (!in_array($is_admin, [0,1])) {
         $error = 'Невалиден тип потребител!';
         $_SESSION['flash']['message']['type'] = 'danger';
         $_SESSION['flash']['message']['text'] = $error;
